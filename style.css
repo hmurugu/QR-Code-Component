@@ -105,6 +105,6 @@ a:hover {
 
 
 @media screen and (max-width: 375px) {
-    #primary { width:100%; }
+    #primary { width:75%; }
     #secondary { width:100%; margin:0; border:none; }
 }
