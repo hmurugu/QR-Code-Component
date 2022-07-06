@@ -24,9 +24,6 @@ body{
     margin-top: 15%;
 	justify-content: center;
     font-family: 'Outfit', sans-serif;
-	
-    position: relative;
-    bottom: 10%;
 }
 
 h1{
@@ -98,13 +95,8 @@ a:hover {
     color:hsl(218, 21%, 53%);
 }
 
-@media screen and (max-width: 1440px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-}
-
-
-@media screen and (max-width: 375px) {
-    #primary { width:75%; }
-    #secondary { width:100%; margin:0; border:none; }
+@media screen and (max-width: 1020px) {
+  .qr-container {
+    margin-top: 5rem;
+  }
 }
