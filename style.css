@@ -48,6 +48,9 @@ p{
     border-radius: 10px 10px 10px 10px;
     width: 51%;
     background-color: white;
+    position: relative;
+    bottom: 30px;
+    box-shadow: 0px 5px 5px grey;
 }
 
 .content:after {
@@ -75,6 +78,8 @@ p{
     justify-content: center;
     left: 3%;
     padding-top: 3%;
+    position: relative;
+    bottom: 30px;
 }
 
 a{
