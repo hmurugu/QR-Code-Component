@@ -24,6 +24,9 @@ body{
     margin-top: 15%;
 	justify-content: center;
     font-family: 'Outfit', sans-serif;
+	
+    position: relative;
+    bottom: 10%;
 }
 
 h1{
