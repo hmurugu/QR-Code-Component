@@ -94,3 +94,14 @@ a:hover {
     transition: color .9s;
     color:hsl(218, 21%, 53%);
 }
+
+@media screen and (max-width: 1440px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+
+@media screen and (max-width: 375px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
